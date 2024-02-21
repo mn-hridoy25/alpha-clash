@@ -14,24 +14,116 @@
 
 <body>
     <main class="bg-black min-h-screen bg-[url(images/background.png)] bg-no-repeat bg-center ">
-        <section>
-        <div class="items-center justify-center flex flex-col gap-8 min-h-screen">
-            <h1 class="text-8xl text-white anton-font">
-                ALPHABET CLASH
-            </h1>
-            <p>
-                Unleash Your Keyboard Kung Fu : Press “Enter” to Play
-            </p>
-            <button class="btn text-black bg-white">Play Now</button>
-        </div>
+        <!-- home page start -->
+        <section class="">
+            <div class="items-center justify-center flex flex-col gap-8 min-h-screen">
+                <h1 class="text-8xl text-white anton-font">
+                    ALPHABET CLASH
+                </h1>
+                <p>
+                    Unleash Your Keyboard Kung Fu : Press “Enter” to Play
+                </p>
+                <button class="btn text-black bg-white">Play Now</button>
+            </div>
         </section>
-        <section class="play-ground">
-    
+        <!-- home page end -->
+        <!-- play ground start -->
+        <section class="flex hidden flex-col gap-20 justify-center items-center min-h-screen">
+            <!-- screen container -->
+            <div>
+                <div
+                    class="artboard artboard-horizontal phone-6 border-[20px] rounded-3xl border-[#010313cc] bg-[#FFFFFFB3] text-black">
+                    <div class="items-center flex flex-col gap-20">
+                        <div>
+                            <p class="bg-[#2F2941] rounded-b-2xl px-4 py-2 text-white">
+                                Don't watch keyboard while playing...
+                            </p>
+                        </div>
+                        <div>
+                            <p class="poppins-font text-8xl font-bold">
+                                Y
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- keyboard start -->
+            <div>
+                <div class="flex justify-center gap-1 my-1 w-full">
+                    <kbd class="kbd btn ">q</kbd>
+                    <kbd class="kbd btn ">w</kbd>
+                    <kbd class="kbd btn ">e</kbd>
+                    <kbd class="kbd btn ">r</kbd>
+                    <kbd class="kbd btn ">t</kbd>
+                    <kbd class="kbd btn ">y</kbd>
+                    <kbd class="kbd btn ">u</kbd>
+                    <kbd class="kbd btn ">i</kbd>
+                    <kbd class="kbd btn ">o</kbd>
+                    <kbd class="kbd btn ">p</kbd>
+                </div>
+                <div class="flex justify-center gap-1 my-1 w-full">
+                    <kbd class="kbd btn">a</kbd>
+                    <kbd class="kbd btn">s</kbd>
+                    <kbd class="kbd btn">d</kbd>
+                    <kbd class="kbd btn">f</kbd>
+                    <kbd class="kbd btn">g</kbd>
+                    <kbd class="kbd btn">h</kbd>
+                    <kbd class="kbd btn">j</kbd>
+                    <kbd class="kbd btn">k</kbd>
+                    <kbd class="kbd btn">l</kbd>
+                </div>
+                <div class="flex justify-center gap-1 my-1 w-full">
+                    <kbd class="kbd btn">z</kbd>
+                    <kbd class="kbd btn">x</kbd>
+                    <kbd class="kbd btn">c</kbd>
+                    <kbd class="kbd btn">v</kbd>
+                    <kbd class="kbd btn">b</kbd>
+                    <kbd class="kbd btn">n</kbd>
+                    <kbd class="kbd btn">m</kbd>
+                    <kbd class="kbd btn">/</kbd>
+                </div>
+            </div>
+            <!-- keyboard end -->
+            <div class="w-3/5">
+                <!-- score page start -->
+                <section class="flex justify-between">
+                    <button class="btn text-white bg-yellow-600 rounded-full">
+                        Life
+                        <img src="images/heart.png" alt="">
+                        <span>1</span>
+                    </button>
+                    <button class="btn text-white bg-purple-800 rounded-full">
+                        Score
+                        <img src="images/dollar.png" alt="">
+                        <span>1</span>
+                    </button>
+                </section>
+                <!-- score page end -->
+            </div>
         </section>
-        <section class="score">
-    
+        <!-- playground end -->
+        <!-- final score start -->
+        <section class="flex hidden min-h-screen justify-center items-center">
+            <div class="text-center bg-[#FFFFFF33] rounded-lg p-6 gap-10">
+                <div class="flex flex-row justify-center items-center">
+                    <p class="text-white text-8xl font-bold">
+                        Score:
+                    </p>
+                    <span class="text-white text-8xl ">14</span>
+                </div>
+                <div>
+                    <button class="btn text-black bg-white">
+                        Play again
+                    </button>
+                </div>
+                <div>
+                    <p>Practice will make you Pro</p>
+                </div>
+            </div>
         </section>
+        <!-- final score end -->
     </main>
+    <script src="scripts/alpha.js"></script>
 </body>
 
 </html>
